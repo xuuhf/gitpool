@@ -1,0 +1,38 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.main{
+	width:700px ;
+	height: 600px;
+	border: 1px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+.pic{
+	width: 200px;
+	height: 200px;
+	border: 1px solid blue;
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	margin-left: 15px;
+	
+}
+.pic .up{
+	width: 200px;
+	height: 150px;
+	border: 1px solid sandybrown;
+}
+.pic .down ul{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.pic .down ul li{
+	list-style: none;
+	display: inline-block;
+	
+	
+}

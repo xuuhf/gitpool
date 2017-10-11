@@ -1,0 +1,145 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 100%;
+	height: 1200px;
+	border: 1px solid red;
+}
+.title{
+	width: 100%;
+	height:50px;
+	border: 1px solid yellow;
+	background-color: #660000;
+	display: flex;
+}
+.title1 {
+	/*background-color: red;*/
+}
+.title .title1 h3{
+	color: white;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    display: flex;
+   margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.title2 {
+	/*background-color: chartreuse;*/
+} 
+.title2 ul {
+	margin-left: 15px;
+	height:50px;
+	line-height: 50px;
+	display: flex;
+	list-style-type: none;
+}
+.title .title2 ul a{
+    color: white;
+	font-size: 16px;
+	margin-left: 0px;
+    
+	
+}
+.title .title2 ul li{
+	width: 70px;
+	height:50px;
+	text-align: center;
+	margin-right: 5px;
+}
+.title .title2 ul li:hover{
+	background-color: #663333;
+	border-radius: 10px;
+	
+}
+.title .title3{
+	 margin-top: 15px;
+	 margin-left: 100px;
+	 display: flex;
+}
+
+.picture_emi{
+	display: flex;
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/email.gif);
+	background-repeat: no-repeat;
+	background-size: 50px 25px;
+	margin-top: 5px;
+}
+
+.picture_emi:hover {
+	background-position-x: -25px;
+}
+
+.login{
+	display: flex;
+}
+.login ul{
+	display: flex;
+	list-style: none;
+	margin-left: 5px;
+}
+.login ul li{
+	text-align: center;
+	width: 50px;
+	color: white;
+}
+.login a{
+	color: white;
+    font-size: 16px;
+   
+}
+.leftl{
+	width: 11%;
+	height: 1150px;
+	border: 1px solid #CCCC99;
+	background-color: #666666;
+	float: left;
+}
+.search{
+	width: 150px;
+	height:20px ;
+	display: flex;
+	margin-bottom: 20px;
+}
+.search_in #ss{
+	width: 100px;
+	height: 20px;
+	border-radius:0.3em;
+}
+.picture_left{
+	display: flex;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/pull_left.gif);
+	background-size: 50px 25px;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.picture_left:hover{
+	background-position-x: -25px;
+}
+
+.picture-bot{
+	display: flex;
+	width: 20px;
+	height: 20px;
+	background-image:url(../img/pull_down_all.gif);
+	background-size: 40px 20px;
+	background-repeat: no-repeat;
+	
+	margin-left: 10px;
+}
+.picture-bot:hover{
+	background-position-x: -20px;
+}
+.manage {
+	display: flex;
+	color: white;
+	margin-left: 10px;
+	
+}

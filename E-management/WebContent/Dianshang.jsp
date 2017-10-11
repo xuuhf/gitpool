@@ -1,0 +1,72 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/Dianshang.css" />	
+	<script type="text/javascript" src="js/Dianshang.js" ></script>
+	<body onload="_onload()">
+		<div class="main">
+			<div class="title">
+				<div class="title1">
+					<h3>LOGO&nbsp&nbsp&nbsp后台管理</h3>
+					
+					</div>
+				<div class="title2">
+				<ul>
+					<li><a href="#" style="text-decoration: none;">系统</a></li>
+					<li><a href="#" style="text-decoration: none;">采购</a></li>
+					<li><a href="#" style="text-decoration: none;">销售</a></li>
+					<li><a href="#" style="text-decoration: none;">库存</a></li>
+					<li><a href="#" style="text-decoration: none;">用户</a></li>
+					<li><a href="#" style="text-decoration: none;">商品</a></li>
+					<li><a href="#" style="text-decoration: none;">订单</a></li>
+					<li><a href="#" style="text-decoration: none;">客服</a></li>
+					<li><a href="#" style="text-decoration: none;">商家</a></li>
+					<li><a href="#" style="text-decoration: none;">财务</a></li>
+					<li><a href="#" style="text-decoration: none;">数据统计</a></li>
+				</ul>
+				</div>
+		        <div class="title3">
+		        	<div class="picture_emi">
+		        		
+		        	</div>
+		 			<div class="login">
+		        
+		        <ul>
+		        	<li><a href="#" style="text-decoration: none;">胡言</a></li>
+		        	<li>|</li>
+		        	<li><a href="#" style="text-decoration: none;">退出</a></li>
+		        </ul>
+		        
+		        </div>
+		        </div>
+		      </div>
+		      <div style="border: 1px solid black ;display: flex;">
+		        <div id="left_main" class="leftl" >
+		        	<div class="search">
+		        	<div class="search_in">
+		        	<input  id="ss" value="搜索" /></div>
+		        	<div class="picture_left"></div>
+		        	</div>
+		       <!--<div class="account">
+		        	<div class="picture-bot"></div>
+		        	<div class="manage">
+		        		<a herf="#">账号管理</a>
+		        		
+		        	</div>
+		        </div>	-->
+		        	
+		        	
+		        </div> 
+		        <div style="border: 1px solid blue;display: flex;width: 100%;">
+		        	<iframe id="iframe" src="commodity.html" style="width: 800px;height: 800px;"></iframe>
+		        </div>
+		        </div>
+		       
+		</div>
+	</body>
+</html>
